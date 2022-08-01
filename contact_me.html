@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="eng"></html>
+<head>
+	<title>How to Build a Gaming PC: Step-by-step</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+<div class = "container">
+<nav class="nav justify-content-center">
+    <div class="nav justify-content-center">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <img src="logos/logo.png" height="75" class="card-img-top" alt="PC Parts">
+        </li>
+	  <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="the_skill.html">The Skill</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html">About</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="history.html">History</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact_me.html">Contact Me</a>
+        </li>
+	</ul>
+    </div>
+</nav><hr>
+<main>
+	<h1>Contact Me</h1><br>
+<form action="mail.php" method="post">
+	<div class="inputwrapper">
+		<label for="first_name" class="newline">First Name</label><br>
+		
+		<input type="first_name" name="first_name" id="first_name" placeholder="First Name">
+		</div>
+	<div class="inputwrapper">
+		<label for="last_name" class="newline">Last Name</label><br>
+		
+		<input type="last_name" name="last_name" id="last_name" placeholder="Last Name">
+		</div>
+		
+		<div class="inputwrapper">
+		<label for="name" class="newline">Email</label><br>
+		<input type="email" name="email" id="email" placeholder="example@gmail.com">
+		</div>
+		
+		<div class="inputwrapper">
+		<label for="name" class="newline">Phone</label><br>
+		<input type="phone" name="phone" id="phone" placeholder="999-999-9999"><br>
+		</div><br>
+		
+		
+	<div class="inputwrapper">
+		<textarea name="message" placeholder="Ask us a question you have regarding building a gaming pc..." cols="100" rows="5"></textarea>
+		</div>
+		
+		<p></p>
+		
+		<p class=".input-instructions"> How would you like to be contacted?</p>
+	<div class="inputwrapper">
+		<input type="radio" name="contact"id="contact-phone" value="contact-phone">
+		<label for="contact-phone" class=".margin-right" class="newline">Phone</label>
+		
+		<input type="radio" name="contact"id="Email" value="Email">
+		<label for="Email">Email</label>
+		</div><br>
+		
+		<p>Select your State</p>
+		
+		<div class="inpurwrapper">
+		<select name="State" id="State">
+			<option value="not" chosen>Alabama</option>
+			<option value="not" chosen>Alaska</option>
+			<option value="not" chosen>Arizona</option>
+			<option value="not" chosen>Arkansas</option>
+			<option value="not" chosen>California</option>
+			<option value="not" chosen>Colorado</option>
+			<option value="not" chosen>Connecticut</option>
+			<option value="not" chosen>Delaware</option>
+			<option value="not" chosen>Florida</option>
+			<option value="not" chosen>Georgia</option>
+			<option value="not" chosen>Hawaii</option>
+			<option value="not" chosen>Idaho</option>
+			<option value="not" chosen>illinois</option>
+			<option value="not" chosen>Indiana</option>
+			<option value="not" chosen>Iowa</option>
+			<option value="not" chosen>Kansas</option>
+			<option value="not" chosen>Kentucky</option>
+			<option value="not" chosen>Louisiana</option>
+			<option value="not" chosen>Maine</option>
+			<option value="not" chosen>Maryland</option>
+			<option value="not" chosen>Massachusetts</option>
+			<option value="not" chosen>Michigan</option>
+			<option value="not" chosen>Minnesota</option>
+			<option value="not" chosen>Mississippi</option>
+			<option value="not" chosen>Missouri</option>
+			<option value="not" chosen>Montana</option>
+			<option value="not" chosen>Nebraska</option>
+			<option value="not" chosen>Nevada</option>
+			<option value="not" chosen>New Hampshire</option>
+			<option value="not" chosen>New Jersey</option>
+			<option value="not" chosen>New Mexico</option>
+			<option value="not" chosen>New York</option>
+			<option value="not" chosen>North Carolina</option>
+			<option value="not" chosen>North Dakota</option>
+			<option value="not" chosen>Ohio</option>
+			<option value="not" chosen>Oklahoma</option>
+			<option value="not" chosen>Oregon</option>
+			<option value="not" chosen>Pennsylvania</option>
+			<option value="not" chosen>Rhode Island</option>
+			<option value="not" chosen>South Carolina</option>
+			<option value="not" chosen>South Dakota</option>
+		      <option value="not" chosen>Tennessee</option>
+			<option value="not" chosen>Texas</option>
+			<option value="not" chosen>Utah</option>
+			<option value="not" chosen>Vermont</option>
+			<option value="not" chosen>Virginia</option>
+			<option value="not" chosen>Washington</option>
+			<option value="not" chosen>West Virginia</option>
+			<option value="not" chosen>Wisconsin</option>
+			<option value="not" chosen>Wyoming</option>
+			
+			</select>
+		</div><br>
+	
+			<p> Date of Submission</p>
+			<input type="datetime-local"name="datetime"id="datetime">
+			<br><br>
+		<div class="inputwrapper">
+		<input type="checkbox" name="email-signup" id="email-signup" value="yes" checked>
+			<label for="email-signup" class="newline">Notify by email</label>
+		</div><br>
+			<a class="btn btn-primary" href="#" role="button">Submit</a>
+		</form>
+       </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+        Copyright &copy; 2022 All Rights Reserved<br> Neev Vachhani,
+        <a href="mailto:nv29699@apps.southwindsorschools.org"> Contact Me</a>
+</footer>
+</main>
+</body>
+</html> 
